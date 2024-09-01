@@ -1,4 +1,4 @@
-# Discord Spammer 0.1
+# Discord Spammer 
 <p align= "center">  <img  src="https://imgur.com/LMOSKDG.png"> 
 🛑 The tool is designed for educational purposes 🛑
 <p>
