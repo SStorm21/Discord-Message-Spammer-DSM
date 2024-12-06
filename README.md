@@ -1,4 +1,3 @@
-Here's the complete, enhanced version in a single message:
 
 ---
 
