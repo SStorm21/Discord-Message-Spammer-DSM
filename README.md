@@ -1,17 +1,9 @@
 
 
 
-# 🤖 Discord Spammer 
+# Discord Message Spammer (DMS)
 
-<p align="center">
-  <img src="https://imgur.com/LMOSKDG.png" alt="Discord Spammer Logo" width="900">
-</p>
-
----
-
-⚠️ **The tool is designed for educational purposes only** ⚠️
-
----
+![Image](https://github.com/user-attachments/assets/fcfde837-7f29-4649-b34a-16e4c35d1521)
 
 ## 📜 Overview
 
@@ -20,13 +12,6 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 - 📝 Specifying multiple channel IDs.  
 
 > **Note:** Use this tool responsibly and ensure compliance with Discord's [Terms of Service](https://discord.com/terms).
-
----
-
-## 📷 Screenshots
-<p align="center">
-  <img src="https://imgur.com/ZXCDdWA.png" alt="Discord Spammer Example Screenshot" width="900">
-</p>
 
 ---
 
@@ -52,11 +37,6 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 
 ## ⚠️ Disclaimer
 
-This tool is provided for **educational purposes** only. Misuse of this tool may violate Discord’s terms and could result in penalties, including account bans. Use responsibly.
-
----
-
-👨‍💻 **Contributions:**  
-Feel free to contribute or report issues by opening an [issue](#) or submitting a [pull request](#).  
+This tool is provided for **educational purposes** only. Misuse of this tool may violate Discord’s terms and could result in penalties, including account bans. Use responsibly. 
 
 ---
