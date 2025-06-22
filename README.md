@@ -3,7 +3,9 @@
 
 # Discord Message Spammer (DMS)
 
-![Image](https://github.com/user-attachments/assets/fcfde837-7f29-4649-b34a-16e4c35d1521)
+![Image](https://github.com/user-attachments/assets/650c4e4e-df94-4b84-8be2-765268501067)
+
+![Image](https://github.com/user-attachments/assets/e85c93e2-54c7-4a30-87a1-74ffde879329)
 
 ## 📜 Overview
 
@@ -34,6 +36,11 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 3. For detailed instructions, refer to the `"how to use"` file.
 
 ---
+
+feel free to try the executable version available in https://sourceforge.net/projects/discord-message-spammer/
+
+
+
 
 ## ⚠️ Disclaimer
 
