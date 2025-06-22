@@ -1,17 +1,12 @@
 How to use the Discord Spam Tool:
 
-1. Ensure the accounts are joined to the intended server or group.
-2. Insert the accounts' tokens or a list of tokens.
-3. Enter your spam content (links, emojis, text).
-4. Send the spam messages.
+\t1. Ensure the accounts are joined to the intended server or group.
+\t2. Insert the accounts' tokens or a list of tokens.
+\t3. Enter your spam content (links, emojis, text).
+\t4. Set the times (better use 5)
+\t5. Send the spam messages.
    
 Note: It is recommended to use a different IP address to avoid Discord disabling your accounts.
-
-User Interface (UI) Version:  *soon*
-1. Open the Discord Spam Tool UI.
-2. Navigate to the account settings and input the tokens.
-3. Enter your spam content in the designated text field.
-4. Click on the "Send" button to start sending the messages.
    
 Command-Line Interface (CLI) Version:
 1. Run the Discord Spam Tool CLI.
@@ -19,5 +14,9 @@ Command-Line Interface (CLI) Version:
 3. Input your spam content when prompted.
 4. Execute the command to begin sending the spam messages.
    
+
+commands
+1. cls : clear the terminal
+
 Disclaimer:
 @StormTools, do not misuse this tool. I do not take responsibility for any misuse. This tool is created for educational purposes only.
