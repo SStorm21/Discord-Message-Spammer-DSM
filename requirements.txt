@@ -1,2 +1,8 @@
-colorama==0.4.6
-Requests==2.32.3
+colorama
+Requests
+pyscreeze
+pyautogui
+tk
+Pillow
+opencv-python
+datetime
