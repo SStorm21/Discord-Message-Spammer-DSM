@@ -3,7 +3,7 @@
 
 # Discord Message Spammer (DMS)
 
-![Image](https://github.com/user-attachments/assets/650c4e4e-df94-4b84-8be2-765268501067)
+<img width="1413" height="568" alt="Image" src="https://github.com/user-attachments/assets/b8bb8950-8e21-4811-85ca-0487ff6643dd" />
 
 ![Image](https://github.com/user-attachments/assets/c946d911-2781-43fa-8c45-a7ca8d2233f3)
 
