@@ -7,6 +7,11 @@
 
 ![Image](https://github.com/user-attachments/assets/c946d911-2781-43fa-8c45-a7ca8d2233f3)
 
+⚠️ Use Restriction — Authorized Testing Only
+
+This tool is provided **only** for authorized testing, moderation, or defensive purposes on accounts and servers you own or have explicit written permission to test. Any malicious use, unsolicited spamming, distribution, or deployment against others or in violation of Discord’s Terms of Service is strictly prohibited and may result in account bans and legal consequences.  
+The maintainer expressly disclaims responsibility and liability for any misuse; users assume all risk and accountability for how they use this software.
+
 ## 📜 Overview
 
 The **Discord Spammer** is a tool designed to send multiple messages quickly and frequently (Spam) across Discord channels. It supports:  
