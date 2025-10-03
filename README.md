@@ -42,7 +42,8 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 
 ---
 
-feel free to try the executable version available in https://sourceforge.net/projects/discord-message-spammer/
+🔗 https://sourceforge.net/projects/discord-message-spammer/
+
 <img width="1171" height="510" alt="image" src="https://github.com/user-attachments/assets/7a461f0a-db3b-4d13-ab03-137a05adaf61" />
 
 
