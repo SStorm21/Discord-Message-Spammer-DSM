@@ -1,6 +1,4 @@
 
-
-
 # Discord Message Spammer (DMS)
 
 <img width="1413" height="568" alt="Image" src="https://github.com/user-attachments/assets/b8bb8950-8e21-4811-85ca-0487ff6643dd" />
@@ -11,6 +9,11 @@
 
 This tool is provided **only** for authorized testing, moderation, or defensive purposes on accounts and servers you own or have explicit written permission to test. Any malicious use, unsolicited spamming, distribution, or deployment against others or in violation of Discord’s Terms of Service is strictly prohibited and may result in account bans and legal consequences.  
 The maintainer expressly disclaims responsibility and liability for any misuse; users assume all risk and accountability for how they use this software.
+
+# 💬 contact
+* telegram ➡️ SStorm2121 
+* signal ➡️ p3hv.24
+* telegram channel : https://t.me/SSStorm21
 
 ## 📜 Overview
 
