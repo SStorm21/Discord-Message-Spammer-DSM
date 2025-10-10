@@ -11,9 +11,7 @@ This tool is provided **only** for authorized testing, moderation, or defensive 
 The maintainer expressly disclaims responsibility and liability for any misuse; users assume all risk and accountability for how they use this software.
 
 # 💬 contact
-* telegram ➡️ SStorm2121 
 * signal ➡️ p3hv.24
-* telegram channel : https://t.me/SSStorm21
 
 ## 📜 Overview
 
