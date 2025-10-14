@@ -1,5 +1,4 @@
 colorama
-Requests
 pyscreeze
 pyautogui
 tk
