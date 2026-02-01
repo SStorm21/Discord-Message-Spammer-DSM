@@ -361,7 +361,7 @@ def Update_section(type=None):
             res = requests.get(url)
 
             if res.status_code == 200:
-                current_version="0.3 beta"
+                current_version="0.4"
                 version = res.text.strip()
                 if current_version == version:
                     pass
@@ -580,3 +580,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
