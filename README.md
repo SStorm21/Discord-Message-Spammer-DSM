@@ -7,20 +7,13 @@
 <img width="1899" height="456" alt="friend request spammer (open-cv)" src="https://github.com/user-attachments/assets/c84f7396-cbe7-44c2-ba79-8d9a5100a6f1" />
 <img width="1920" height="1080" alt="login via token" src="https://github.com/user-attachments/assets/eaadd60d-6f31-474f-b3df-1aecbd62c306" />
 
-⚠️ Use Restriction — Authorized Testing Only
-
-This tool is provided **only** for authorized testing, moderation, or defensive purposes on accounts and servers you own or have explicit written permission to test. Any malicious use, unsolicited spamming, distribution, or deployment against others or in violation of Discord’s Terms of Service is strictly prohibited and may result in account bans and legal consequences.  
-The maintainer expressly disclaims responsibility and liability for any misuse; users assume all risk and accountability for how they use this software.
-
-# 💬 contact
-* signal ➡️ p3hv.24
-
 ## 📜 Overview
 
 The **Discord Spammer** is a tool designed to send multiple messages quickly and frequently (Spam) across Discord channels. It supports:  
 -  Adding multiple tokens.  
 -  Specifying multiple channel IDs.  
 -  Spamming webhook
+-  Spamming friend requests
   
 > **Note:** Use this tool responsibly and ensure compliance with Discord's [Terms of Service](https://discord.com/terms).
 
@@ -49,6 +42,10 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 🔗 https://sourceforge.net/projects/discord-message-spammer/
 
 <img width="1167" height="656" alt="image" src="https://github.com/user-attachments/assets/984ffa2c-764e-460b-b50b-d46cb9b2d01c" />
+
+⚠️ Use Restriction — Authorized Testing Only
+This tool is provided **only** for authorized testing, moderation, or defensive purposes on accounts and servers you own or have explicit written permission to test. Any malicious use, unsolicited spamming, distribution, or deployment against others or in violation of Discord’s Terms of Service is strictly prohibited and may result in account bans and legal consequences.  
+The maintainer expressly disclaims responsibility and liability for any misuse; users assume all risk and accountability for how they use this software.
 
 
 ## 💼 license
