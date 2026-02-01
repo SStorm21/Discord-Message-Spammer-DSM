@@ -7,6 +7,10 @@ from colorama import Fore, Style, init
 from pyautogui import ImageNotFoundException
 from datetime import datetime
 import platform,getpass,os,sys
+#for the next update(0.5)
+# new webhook options
+#changing the avatar+username+embeds+mutiwebhook+adding attachments
+
 # Set frequency (Hz) and duration (milliseconds)
 frequency = 250  # Example: 2500 Hz
 duration = 1000   # Example: 1000 milliseconds (1 second)
@@ -55,9 +59,52 @@ def report(message): #will be added to 0.4 ? idk
     # get the webhook link from github
     # the info it will be taken from the user in exe version is : username - ip - system info ?
     # in the next update 0.4 the webhook spammer will be added and it will refuse to spam on report webhook and ban the user.
-
-    
     pass
+
+def sp4mming_webhook(webhook_url=None, message_content=None):
+    x=0
+    y=0
+    if webhook_url =="" or message_content == "":
+        print(f'\t{red}( × ){blue} Error! webhook url or spam content is None!')
+        time.sleep(3)
+        return
+
+    else:
+        while 1==1:
+            
+            
+            data = {
+                "content": str(message_content),
+                "username": "SStorm21 DSM 0.4",
+                "avatar_url":"https://i.pinimg.com/1200x/c6/ab/b2/c6abb2cdcbee95f5f340896bf798f41a.jpg",
+            }   
+            response = requests.post(url=webhook_url, json=data)
+            
+            if response.status_code == 204:
+                x+=1
+                time.sleep(0.1)
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print(f"\t{blue}╭──── {green}[ WEBHOOK LOG ]{blue} ───────────────────────────────────╮")
+                print(f"\t{blue}│                                                        │")
+                print(f"\t{blue}│  {green}● SUCCESS {blue}│  Sent: {green}{str(x).ljust(8)} {blue}│  Status: {green}OK             {blue}│")
+                print(f"\t{blue}│  {red}● FAILURE {blue}│  Fail: {red}{str(y).ljust(8)} {blue}│  Code: {red}{response.status_code:<11}{blue}      │")
+                print(f"\t{blue}│                                                        │")
+                print(f"\t{blue}╰────────────────────────────────────────────────────────╯")
+                
+                #print(f"\t{blue}─── {green}[ WEBHOOK STATUS ]{blue} ──────────────────────────────────")
+                #print(f"\t{green}  ✓  {blue}Message Sent Successfully  {green}│{blue} Total Success: {green}{x}")
+                #print(f"\t{blue}────────────────────────────────────────────────────────")
+                #print(f'\t{red}( × ){blue} Failed Status ->'+str(response.status_code)+f" Total failed: {red}{y}")
+
+                #print(f"\t{blue}  .____________________________________________________________________________.")
+                #print(f"\t{green}>| status  |{blue} |   message sent to webhook  |       total messages        |")
+                #print(f"\t{blue}  |---------|-------|----------------------------|-----------------------------|")
+                #print(f"\t{green}> (   ✓   ){blue}              sent                 {green}{str(x)}{blue}      ")
+                #print(f"\t{blue}  .____________________________________________________________________________.")
+
+
+            else:
+                y+=1
 
 def read_tokens(file_path): #COLORS72
     try:
@@ -344,13 +391,13 @@ def main():
 \t{blue}██▪ ██{lightBlue} ██ ▐█ ▀. ▐█ ▌▪▪     ▀▄ █·██▪ ██     {blue}▐█ ▀.{lightBlue} ▐█ ▄█▐█ ▀█ ·██ ▐███▪·██ ▐███▪▀▄.▀·▀▄ █·
 \t{blue}▐█· ▐█▌{lightBlue}▐█·▄▀▀▀█▄██ ▄▄ ▄█▀▄ ▐▀▀▄ ▐█· ▐█▌    {blue}▄▀▀▀█▄{lightBlue} ██▀·▄█▀▀█ ▐█ ▌▐▌▐█·▐█ ▌▐▌▐█·▐▀▀▪▄▐▀▀▄
 \t{blue}██. ██{lightBlue} ▐█▌▐█▄▪▐█▐███▌▐█▌.▐▌▐█•█▌██. ██     {blue}▐█▄▪▐█{lightBlue}▐█▪·•▐█ ▪▐▌██ ██▌▐█▌██ ██▌▐█▌▐█▄▄▌▐█•█▌
-\t{blue}▀▀▀▀▀•{lightBlue} ▀▀▀ ▀▀▀▀ ·▀▀▀  ▀█▄▀▪.▀  ▀▀▀▀▀▀•      {blue}▀▀▀▀{lightBlue} .▀    ▀  ▀ ▀▀  █▪▀▀▀▀▀  █▪▀▀▀ ▀▀▀ .▀  ▀ 0.3 Beta
+\t{blue}▀▀▀▀▀•{lightBlue} ▀▀▀ ▀▀▀▀ ·▀▀▀  ▀█▄▀▪.▀  ▀▀▀▀▀▀•      {blue}▀▀▀▀{lightBlue} .▀    ▀  ▀ ▀▀  █▪▀▀▀▀▀  █▪▀▀▀ ▀▀▀ .▀  ▀ 0.4
 \t\t@StormTools Discord -> .p3hv {red}Tokens expire on logout and renew on login!{blue}
-\t\t{lightBlue}join my discord: https://discord.gg/BZynQaFenU{blue}
+\t\t
 \n\t▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀""")
             print(blue+f"""\n\tchannel options\n\t-----------------+\n\t1) insert tokens   2) import tokens list\n\t3) set channel IDs 4) times\n\t5) start 
 \n\tusers options\n\t-----------------+\n\t6) send friend request{red} ( via API and you will get a captcha-required error so pass it ){blue}
-\t7) send friend request via Browser\n\n\tcommands\n\t-----------------+\n\t/exit\n\t/usage"""+reset)
+\t7) send friend request via Browser\n\n\tother options\n\t-----------------+\n\t8) webhook spammer\n\n\tcommands\n\t-----------------+\n\t/exit\n\t"""+reset)
             play(type="1")
             user = input(f"\n\t{lightBlue}:> "+white).strip()
             if user in ['exit', '/exit']:
@@ -442,40 +489,41 @@ def main():
                     play(type="2")
                     print(f'\t{red}( ! ) Unknown option! ( ! ) {reset}')
 
-            elif user == '/usage':
-                play(type="4")
-                try:
-                    with open('how_to_use.txt', 'r') as f:
-                        file = f.read()
-                        print(file)
-                except FileNotFoundError:
-                    print(lightBlue+f'''
-                
-\tDiscord: .p3hv   
-\tHow to use the Discord Spam Tool:
-                          
-\t1. Ensure the accounts are joined to the intended server or group.
-\t2. Insert the accounts' tokens or a list of tokens.
-\t3. Enter your spam content (links, emojis, text).
-\t4. Set the times (better use 5)
-\t5. Send the spam messages.
-   
-\tNote: It is recommended to use a different IP address to avoid Discord disabling your accounts.
+            
+#            elif user == '/usage': disabled for now
+#                play(type="4")
+#                try:
+#                    with open('how_to_use.txt', 'r') as f:
+#                        file = f.read()
+#                        print(file)
+#                except FileNotFoundError:
+#                    print(lightBlue+f'''
+#                
+#\tDiscord: .p3hv   
+#\tHow to use the Discord Spam Tool:
+#                          
+#\t1. Ensure the accounts are joined to the intended server or group.
+#\t2. Insert the accounts' tokens or a list of tokens.
+#\t3. Enter your spam content (links, emojis, text).
+#\t4. Set the times (better use 5)
+#\t5. Send the spam messages.
+#   
+#\tNote: It is recommended to use a different IP address to avoid Discord disabling your accounts.
 
-\tCommand-Line Interface (CLI) Version:
-\t(!) you can add muti channel ids in option 3 (!)
+#\tCommand-Line Interface (CLI) Version:
+#\t(!) you can add muti channel ids in option 3 (!)
 
-\t1. Run the Discord Spam Tool CLI.
-\t2. Provide the tokens as command-line arguments or in a file.
-\t3. Input your spam content when prompted.
-\t4. Execute the command to begin sending the spam messages.
+#\t1. Run the Discord Spam Tool CLI.
+#\t2. Provide the tokens as command-line arguments or in a file.
+#\t3. Input your spam content when prompted.
+#\t4. Execute the command to begin sending the spam messages.
    
-\t commands
-\t 1. cls  : clear the terminal
-\t 2. exit : quit
-\t{Fore.RED}Disclaimer:
-\t@StormTools, do not misuse this tool. I do not take responsibility for any misuse.\n\t This tool is created for educational purposes only.
-'''+reset)
+#\t commands
+#\t 1. cls  : clear the terminal
+#\t 2. exit : quit
+#\t{Fore.RED}Disclaimer:
+#\t@StormTools, do not misuse this tool. I do not take responsibility for any misuse.\n\t This tool is created for educational purposes only.
+#'''+reset)
             
             elif user=='6':
                 play(type="4")
@@ -500,7 +548,7 @@ def main():
 \t5) {red}Dont{blue} touch anything let the tool do its job.
 \t{red}NOTE: {blue}BASED ON CHROME AND IT WILL DELETE THE --> Browse history, cookies/site data, and cached images/files from the last hour.
 """)
-
+            
                 user_id1=input(f"\n\t{blue}username :> {white}")
                 if user_id1:
                     play(type="4")
@@ -514,6 +562,12 @@ def main():
             #elif user == '/report':
             #    msg = input("\t{green}report :>{red}")
             #   report(message=msg)
+            elif user == '8':
+                play(type="4")
+                os.system('cls' if os.name == 'nt' else 'clear')
+                webhookurl=input(f"\t{blue} webhook url :> ")
+                message_=input(f"\t{blue} spam content :> ")
+                sp4mming_webhook(webhook_url=webhookurl, message_content=message_)
                 
             else:
                 play(type="2")
