@@ -10,8 +10,8 @@
 ## 📜 Overview
 
 The **Discord Spammer** is a tool designed to send multiple messages quickly and frequently (Spam) across Discord channels. It supports:  
--  Adding multiple tokens.  
--  Specifying multiple channel IDs.  
+-  Adding multiple tokens
+-  Specifying multiple channel IDs
 -  Spamming webhook
 -  Spamming friend requests
   
