@@ -5,7 +5,6 @@
 <img width="1463" height="782" alt="webhook status" src="https://github.com/user-attachments/assets/acacaa95-37ab-4d70-b342-11d97006392f" />
 <img width="1412" height="518" alt="spamming messages" src="https://github.com/user-attachments/assets/5becb810-57a1-42ea-81ed-cc6945ace5c7" />
 <img width="1899" height="456" alt="friend request spammer (open-cv)" src="https://github.com/user-attachments/assets/c84f7396-cbe7-44c2-ba79-8d9a5100a6f1" />
-<img width="1920" height="1080" alt="login via token" src="https://github.com/user-attachments/assets/eaadd60d-6f31-474f-b3df-1aecbd62c306" />
 
 ## 📜 Overview
 
