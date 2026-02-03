@@ -48,7 +48,8 @@ https://github.com/user-attachments/assets/a6086d3d-588f-4077-a9c0-fd08d8bb7bb7
 
 🔗 https://sourceforge.net/projects/discord-message-spammer/
 
-<img width="1167" height="656" alt="image" src="https://github.com/user-attachments/assets/984ffa2c-764e-460b-b50b-d46cb9b2d01c" />
+<img width="1364" height="742" alt="image" src="https://github.com/user-attachments/assets/20de74ed-fb69-48f9-a5bd-518cff41cd47" />
+<img width="1087" height="244" alt="image" src="https://github.com/user-attachments/assets/cd348c43-c975-48e4-a2ef-50dbb1b6f7d3" />
 
 ⚠️ Use Restriction — Authorized Testing Only
 This tool is provided **only** for authorized testing, moderation, or defensive purposes on accounts and servers you own or have explicit written permission to test. Any malicious use, unsolicited spamming, distribution, or deployment against others or in violation of Discord’s Terms of Service is strictly prohibited and may result in account bans and legal consequences.  
