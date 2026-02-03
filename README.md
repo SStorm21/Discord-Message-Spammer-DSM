@@ -19,6 +19,14 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 
 ---
 
+## example usages
+
+
+https://github.com/user-attachments/assets/a6086d3d-588f-4077-a9c0-fd08d8bb7bb7
+
+
+
+
 ## 🚀 How to Use
 
 1. Install the required dependencies:
