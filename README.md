@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/a6086d3d-588f-4077-a9c0-fd08d8bb7bb7
 
 
 
-## 🚀 How to Use
+##  How to start
 
 1. Install the required dependencies:
    ```bash
@@ -51,9 +51,10 @@ https://github.com/user-attachments/assets/a6086d3d-588f-4077-a9c0-fd08d8bb7bb7
 <img width="1364" height="742" alt="image" src="https://github.com/user-attachments/assets/20de74ed-fb69-48f9-a5bd-518cff41cd47" />
 <img width="1087" height="244" alt="image" src="https://github.com/user-attachments/assets/cd348c43-c975-48e4-a2ef-50dbb1b6f7d3" />
 
-⚠️ Use Restriction — Authorized Testing Only
-This tool is provided **only** for authorized testing, moderation, or defensive purposes on accounts and servers you own or have explicit written permission to test. Any malicious use, unsolicited spamming, distribution, or deployment against others or in violation of Discord’s Terms of Service is strictly prohibited and may result in account bans and legal consequences.  
-The maintainer expressly disclaims responsibility and liability for any misuse; users assume all risk and accountability for how they use this software.
+
+## ⚠️ Use Restriction — Authorized Testing Only
+
+This utility is designed exclusively for vulnerability assessment. It must be used to test the efficacy of your server’s anti-spam measures and rate limits. Unauthorized use for malicious disruption is strictly prohibited.
 
 
 ## 💼 license
