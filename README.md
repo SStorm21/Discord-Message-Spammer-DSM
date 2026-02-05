@@ -1,10 +1,7 @@
 
-# Discord Message Spammer (DMS)
+# Discord Spammer 0.5
 
-<img width="1092" height="686" alt="version 0 4" src="https://github.com/user-attachments/assets/1f142e08-d81e-49b1-ac51-6c3aa6f2c2fb" />
-<img width="1463" height="782" alt="webhook status" src="https://github.com/user-attachments/assets/acacaa95-37ab-4d70-b342-11d97006392f" />
-<img width="1412" height="518" alt="spamming messages" src="https://github.com/user-attachments/assets/5becb810-57a1-42ea-81ed-cc6945ace5c7" />
-<img width="1899" height="456" alt="friend request spammer (open-cv)" src="https://github.com/user-attachments/assets/c84f7396-cbe7-44c2-ba79-8d9a5100a6f1" />
+
 
 ## 📜 Overview
 
@@ -18,8 +15,7 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 
 ---
 
-## example usages
-
+## example usages (footage from version 0.4 but still the same functionality)
 
 https://github.com/user-attachments/assets/a6086d3d-588f-4077-a9c0-fd08d8bb7bb7
 
