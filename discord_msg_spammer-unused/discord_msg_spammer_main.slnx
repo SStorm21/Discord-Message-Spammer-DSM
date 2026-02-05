@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="discord_msg_spammer_main/discord_msg_spammer_main.vcxproj" />
+</Solution>
