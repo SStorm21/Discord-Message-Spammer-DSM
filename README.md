@@ -1,9 +1,10 @@
 
 # Discord Spammer 0.5
 
+<img width="1921" height="797" alt="1" src="https://github.com/user-attachments/assets/8feb3e00-873a-4c9b-a2b4-7c9e6de99e64" />
 
 
-## 📜 Overview
+## About
 
 The **Discord Spammer** is a tool designed to send multiple messages quickly and frequently (Spam) across Discord channels. It supports:  
 -  Adding multiple tokens
