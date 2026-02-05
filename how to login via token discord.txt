@@ -1,5 +1,0 @@
-based on tor browser you should go to the login page, console, paste the login script.js, it will show error type: "allow pasting" then login via token
-other browsers will do the same but some of them will just start letting commands go via "allow pasting" in most cases
-
-how to get my token?
-dev options --> enable mobile --> applocations --> token filter --> token
