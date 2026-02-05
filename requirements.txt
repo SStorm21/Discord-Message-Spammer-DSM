@@ -5,3 +5,4 @@ tk
 Pillow
 opencv-python
 datetime
+pystyle
