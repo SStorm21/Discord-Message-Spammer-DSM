@@ -7,10 +7,10 @@
 ## About
 
 The **Discord Spammer** is a tool designed to send multiple messages quickly and frequently (Spam) across Discord channels. It supports:  
+
 -  Adding multiple tokens
 -  Specifying multiple channel IDs
 -  Spamming webhook
--  Spamming friend requests
   
 > **Note:** Use this tool responsibly and ensure compliance with Discord's [Terms of Service](https://discord.com/terms).
 
@@ -20,28 +20,12 @@ The **Discord Spammer** is a tool designed to send multiple messages quickly and
 
 https://github.com/user-attachments/assets/a6086d3d-588f-4077-a9c0-fd08d8bb7bb7
 
-
-
-
-##  How to start
-
-1. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Run the tool using:
-   ```bash
-   python DiscordSpammer_CLI.py
-   ```
-   *or*  
-   Execute the pre-configured batch file:
-   ```bash
-   run.bat
-   ```
-
-3. For detailed instructions, refer to the `"how to use"` file.
-
 ---
+
+### make sure u download the reqs
+``pip install -r .\requirements.txt``
+
+# sourceforge page
 
 🔗 https://sourceforge.net/projects/discord-message-spammer/
 
@@ -49,12 +33,11 @@ https://github.com/user-attachments/assets/a6086d3d-588f-4077-a9c0-fd08d8bb7bb7
 <img width="1087" height="244" alt="image" src="https://github.com/user-attachments/assets/cd348c43-c975-48e4-a2ef-50dbb1b6f7d3" />
 
 
-## ⚠️ Use Restriction — Authorized Testing Only
+## Use Restriction 
 
 This utility is designed exclusively for vulnerability assessment. It must be used to test the efficacy of your server’s anti-spam measures and rate limits. Unauthorized use for malicious disruption is strictly prohibited.
 
-
-## 💼 license
+## license
 
 By downloading this, you agree to the Commons Clause license and that you're not allowed to sell this repository or any code from this repository. For more info see https://commonsclause.com/.
 
