@@ -1,0 +1,33 @@
+i need to execute a file named main.py with icon.ico using pyinstaller
+add me these files and hidden imports for these labs, add the reqes too
+
+add_freind1.png
+closed_friend_request_proplem.png
+Delete.png
+how to use.txt
+icon.ico
+LoginPage0.png
+login_screen.png
+oprea icon.png
+search_user_name2.png
+send_freind_request3.png
+
+labs are:
+import requests
+import time,subprocess
+import os
+from tkinter import filedialog
+import pyautogui, pyperclip, pyscreeze, winsound
+from colorama import Fore, Style, init
+from pyautogui import ImageNotFoundException
+from datetime import datetime
+import platform,getpass
+
+colorama
+Requests
+pyscreeze
+pyautogui
+tk
+Pillow
+opencv-python
+datetime

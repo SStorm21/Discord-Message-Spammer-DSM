@@ -1,0 +1,20 @@
++ auto login system (when there is a captcha the device will beep to make the human solve it)
+ --> onion.org
+ --> gmail.com
+ --> Hotmail.com
+
++ webhook spammer 
+ --> webhook random generator (make sure if the webhook link works or not)
+
++ report system
+ --> report a message in a discord server via UI
+
++ other stuff
+ --> account joiner via UI
+ --> spam a user via dm using UI 
+
+
+
+
+
+
