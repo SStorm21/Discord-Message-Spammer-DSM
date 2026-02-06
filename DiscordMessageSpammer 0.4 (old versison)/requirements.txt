@@ -1,7 +1,0 @@
-colorama
-pyscreeze
-pyautogui
-tk
-Pillow
-opencv-python
-datetime
