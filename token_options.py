@@ -72,20 +72,20 @@ def spam_token():
                             headers = {'Authorization': tokens}
                             payload = {'content': spam_content}
                             response = requests.post(url, json=payload, headers=headers)
-                            if response.status_code == 204:
-                                success+=1
-                            time.sleep(0.1);os.system('cls' if os.name == 'nt' else 'clear')
+
+                                
+                            success+=1
+                            time.sleep(0.05);os.system('cls' if os.name == 'nt' else 'clear')
                             print(Colorate.Horizontal(Colors.blue_to_cyan,"────[ TOKEN SPAM STATUS ]───────────────────────"));print("")
-                            print(Colorate.Vertical(Colors.green_to_yellow,f"       ● SUCCESS {str(success)}"))
-                            print(Colorate.Vertical(Colors.red_to_green,f"       ● FAILURE {str(fail)}\n\n"))
+                            print(Colorate.Vertical(Colors.green_to_yellow,f"       ● REQUESTS BEEN SENT {str(success)}"))
+                            print(Colorate.Vertical(Colors.red_to_green,f"       ● FAILURE or BLOCKED {str(fail)}\n\n"))
                             print(Colorate.Horizontal(Colors.blue_to_cyan,"────[ Channel IDs and Token Paths ]─────────────"));print("")
                             print(Colorate.Horizontal(Colors.blue_to_cyan,f" ❥・ Tokens File Path {token_file_path}\n ❥・ Channel ids File Path {channel_file_path}"));print("")
 
-                            if response.status_code!=204:
+                            if response.status_code !=200:
                                 fail+=1
-
-                            else:
-                                print(Colorate.Horizontal(Colors.red_to_yellow,f"( x ) Error! {response.status_code}!"))
+                                
+                                #print(Colorate.Horizontal(Colors.red_to_yellow,f"( x ) Error! {response.status_code}!"))
                             
                                 
                     
