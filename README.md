@@ -55,12 +55,16 @@ FAKE_CHANNEL_ID_1357924680135792468
 ### then u can run it 
 ```python main.py```
 
-# sourceforge page
-🔗 https://sourceforge.net/projects/discord-message-spammer/
+---
 
-<img width="1364" height="742" alt="image" src="https://github.com/user-attachments/assets/20de74ed-fb69-48f9-a5bd-518cff41cd47" />
-<img width="1087" height="244" alt="image" src="https://github.com/user-attachments/assets/cd348c43-c975-48e4-a2ef-50dbb1b6f7d3" />
+<a href="https://sourceforge.net/p/discord-message-spammer/"><img alt="Download Discord Token &amp; Message Spammer" src="https://sourceforge.net/sflogo.php?type=18&amp;group_id=3885264" width=200></a>
 
+[![Download Discord Token & Message Spammer](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/discord-message-spammer/files/latest/download)
+
+[![Download Discord Token & Message Spammer](https://img.shields.io/sourceforge/dt/discord-message-spammer.svg)](https://sourceforge.net/projects/discord-message-spammer/files/latest/download)
+[![Download Discord Token & Message Spammer](https://img.shields.io/sourceforge/dd/discord-message-spammer.svg)](https://sourceforge.net/projects/discord-message-spammer/files/latest/download)
+[![Download Discord Token & Message Spammer](https://img.shields.io/sourceforge/dw/discord-message-spammer.svg)](https://sourceforge.net/projects/discord-message-spammer/files/latest/download)
+[![Download Discord Token & Message Spammer](https://img.shields.io/sourceforge/dm/discord-message-spammer.svg)](https://sourceforge.net/projects/discord-message-spammer/files/latest/download)
 
 ## Use Restriction 
 
